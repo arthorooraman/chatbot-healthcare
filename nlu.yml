@@ -1,0 +1,31 @@
+nlu:
+- intent: greet
+ examples: |
+    - hi
+    - hello
+    - hey
+- intent: new_symptom
+ examples: |
+    - I'm experiencing a headache
+    - My body is aching
+    - I have a fever
+- intent: thanks
+ examples: |
+    - thank you
+    - appreciate it
+    - nice one
+- intent: goodbye
+ examples: |
+    - bye
+    - goodbye
+    - see you later
+- intent: deny
+ examples: |
+    - no
+    - not really
+    - don't think so
+- intent: affirm
+ examples: |
+    - yes
+    - correct
+    - that's right

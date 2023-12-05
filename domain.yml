@@ -1,0 +1,23 @@
+intents:
+ - greet
+ - new_symptom
+ - thanks
+ - goodbye
+ - deny
+ - affirm
+
+responses:
+ utter_greet:
+ - text: "Hello! How can I help you today?"
+  
+ utter_ask_symptom:
+ - text: "What symptom are you experiencing?"
+  
+ utter_confirm_symptom:
+ - text: "You mentioned that you are experiencing {}. Is this correct?"
+  
+ utter_goodbye:
+ - text: "Thank you for visiting! Have a great day!"
+  
+ utter_thanks:
+ - text: "You're welcome! Is there anything else I can help you with?"
